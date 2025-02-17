@@ -1,19 +1,19 @@
 # AI-Powered Document Scanner
 
 ## Overview
-This is an AI-powered document scanner that allows users to scan documents using their webcam or upload an image. The app processes the document, extracts text using **Tesseract OCR**, and displays the extracted content.
+This is an AI-powered document scanner that allows users to scan documents using their webcam or upload an image. The app processes the document, extracts text using **EasyOCR**, and displays the extracted content.
 
 ## Features
 - Upload an image or capture one using the webcam
 - Automatically detects and processes the document
-- Extracts text from the document using **Tesseract OCR**
+- Extracts text from the document using **EasyOCR**
 - Displays the extracted text in the app
 
 ## Technologies Used
 - **Streamlit** (for the web app)
 - **OpenCV** (for document processing)
 - **NumPy** (for image operations)
-- **Tesseract OCR** (for text extraction)
+- **EasyOCR** (for text extraction)
 
 ## Installation & Usage
 ### 1️⃣ Install Dependencies
@@ -22,23 +22,8 @@ Ensure you have Python installed, then install the required packages:
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Install Tesseract OCR
-**Mac:** Install Tesseract using Homebrew:
-```sh
-brew install tesseract
-```
-**Windows:** Download and install Tesseract from [here](https://github.com/UB-Mannheim/tesseract/wiki).
-
-### 3️⃣ Run the App Locally
-```sh
-streamlit run app.py
-```
-
 ## Deployment on Streamlit Cloud
-1. Push the project to a **public GitHub repository**.
-2. Go to [Streamlit Cloud](https://share.streamlit.io/) and log in.
-3. Click **New App**, select your repository, and set `app.py` as the main file.
-4. Click **Deploy**.
+Published at https://ai-document-scanner-gekztbdaf9ma7kl7dovnde.streamlit.app/ 
 
 ## Folder Structure
 ```
