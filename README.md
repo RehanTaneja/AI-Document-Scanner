@@ -50,9 +50,6 @@ streamlit run app.py
  ├── 📄 README.md           # Project documentation
 ```
 
-## Example Screenshot
-![Demo](https://via.placeholder.com/600x300?text=App+Demo)
-
 ## Contributing
 Feel free to open issues or submit pull requests!
 
